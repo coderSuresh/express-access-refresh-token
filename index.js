@@ -4,7 +4,7 @@ import cookieParser from 'cookie-parser';
 import helmet, { contentSecurityPolicy } from 'helmet';
 import cors from 'cors';
 
-import requireLogin from './src/middlewares/require-login.js';
+import requireLogin from './src/middlewares/require-login.middleware.js';
 
 import userRoute from './src/routes/user.route.js';
 import protectedRoute from './src/routes/protected.route.js'
